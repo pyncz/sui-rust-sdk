@@ -322,7 +322,7 @@ impl Client {
     }
 
     /// Return the URL for the GraphQL server.
-    fn rpc_server(&self) -> &str {
+    pub fn rpc_server(&self) -> &str {
         self.rpc.as_str()
     }
 
